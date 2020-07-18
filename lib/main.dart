@@ -1,4 +1,6 @@
-import 'package:firebase_flutter/Setups/LoginPage.dart';
+
+import 'package:firebase_flutter/Pages/Setups/LoginPage.dart';
+import 'package:firebase_flutter/Pages/Setups/welcome.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginPage(),
+      home: WelcomePage(),
     );
   }
 }
